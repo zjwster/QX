@@ -1,5 +1,5 @@
 #自定义的分流规则
-DOMAIN-SUFFIX,clubsim.com.hk,Proxy
+DOMAIN-SUFFIX,clubsim.com.hk,PROXY
 DOMAIN-SUFFIX,live.net,DIRECT
 DOMAIN-SUFFIX,paypal.com,DIRECT
 DOMAIN-SUFFIX,onenote.com,DIRECT
