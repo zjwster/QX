@@ -1,4 +1,5 @@
 #自定义的分流规则
+DOMAIN-SUFFIX,openai.com,PROXY
 DOMAIN-SUFFIX,bulianglin.com,PROXY
 DOMAIN-SUFFIX,clubsim.com.hk,PROXY
 DOMAIN-SUFFIX,live.net,DIRECT
