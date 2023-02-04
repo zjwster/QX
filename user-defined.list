@@ -63,4 +63,5 @@ DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN,PROXYi.googleapis.com,PROXY
 DOMAIN,yt3.ggpht.com,PROXY
-
+# > ChatGPT
+DOMAIN-SUFFIX,openai.com,ChatGPT
