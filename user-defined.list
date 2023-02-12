@@ -1,6 +1,6 @@
 # > ChatGPT
-DOMAIN-SUFFIX,openai.com,ChatGPT
-DOMAIN-SUFFIX,whatismyipaddress.com,ChatGPT
+# DOMAIN-SUFFIX,openai.com,ChatGPT
+# DOMAIN-SUFFIX,whatismyipaddress.com,ChatGPT
 #自定义的分流规则
 DOMAIN-SUFFIX,zditect.com,REJECT
 DOMAIN-SUFFIX,netflix.com,PROXY
