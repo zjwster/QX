@@ -1,10 +1,9 @@
-# > ChatGPT
-DOMAIN-SUFFIX,openai.com,ChatGPT
-# > bard
-host-keyword,bard.google.com,bard
+#美国节点
+DOMAIN-SUFFIX,openai.com,US-PROXY
+DOMAIN-SUFFIX,poe.com,US-PROXY
+DOMAIN-SUFFIX,bing.com,US-PROXY
+DOMAIN-SUFFIX,bard.google.com,US-PROXY
 #自定义的分流规则
-DOMAIN-SUFFIX,poe.com,PROXY
-DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,zditect.com,REJECT
 DOMAIN-SUFFIX,netflix.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
@@ -69,6 +68,3 @@ DOMAIN-SUFFIX,yt.be,PROXY
 DOMAIN-SUFFIX,ytimg.com,PROXY
 DOMAIN,PROXYi.googleapis.com,PROXY
 DOMAIN,yt3.ggpht.com,PROXY
-
-
-
