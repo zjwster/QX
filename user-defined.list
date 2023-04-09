@@ -1,12 +1,11 @@
+# 无法指定某一个节点
 # 美国策略组
 DOMAIN-SUFFIX,openai.com,US-PROXY
 DOMAIN-SUFFIX,bing.com,US-PROXY
 DOMAIN-SUFFIX,bard.google.com,US-PROXY
 
-# 指定节点
-DOMAIN-SUFFIX,poe.com,vollcloud
-
 # 自定义的分流规则
+DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,zditect.com,REJECT
 DOMAIN-SUFFIX,netflix.com,PROXY
 DOMAIN-SUFFIX,openai.com,PROXY
