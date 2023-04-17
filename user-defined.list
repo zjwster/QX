@@ -54,7 +54,7 @@ DOMAIN,apps.apple.com,DIRECT
 DOMAIN,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,pingan.com,DIRECT
 DOMAIN-SUFFIX,v2rayssr.com,PROXY
-DOMAIN-SUFFIX,gaoqingdianshi.com,direct
+
 # > YouTube
 USER-AGENT,com.google.ios.youtube*,PROXY
 USER-AGENT,PROXY*,PROXY
