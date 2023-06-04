@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,openai.com,TW-PROXY
 DOMAIN-SUFFIX,bard.google.com,US-PROXY
 
 # 自定义的分流规则
+DOMAIN-SUFFIX,character.ai,PROXY
 DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,zditect.com,REJECT
 DOMAIN-SUFFIX,netflix.com,PROXY
