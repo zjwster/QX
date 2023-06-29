@@ -1,6 +1,6 @@
 # 无法指定某一个节点
 # 美国策略组
-DOMAIN-SUFFIX,openai.com,JP-PROXY
+DOMAIN-SUFFIX,openai.com,US-PROXY
 # DOMAIN-SUFFIX,bing.com,US-PROXY
 DOMAIN-SUFFIX,bard.google.com,US-PROXY
 DOMAIN-SUFFIX,tiktok.com,US-PROXY
