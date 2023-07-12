@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,openai.com,US-PROXY
 DOMAIN-SUFFIX,bard.google.com,US-PROXY
 DOMAIN-SUFFIX,tiktok.com,US-PROXY
 DOMAIN-SUFFIX,skype.com,US-PROXY
+DOMAIN-SUFFIX,claude.ai,US-PROXY
+DOMAIN-SUFFIX,anthropic.com,US-PROXY
 
 # 自定义的分流规则
 DOMAIN-SUFFIX,character.ai,PROXY
