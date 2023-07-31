@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,claude.ai,TW-PROXY
 DOMAIN-SUFFIX,anthropic.com,TW-PROXY
 
 # 自定义的分流规则
+DOMAIN-SUFFIX,civitai.com,PROXY
 DOMAIN-SUFFIX,character.ai,PROXY
 DOMAIN-SUFFIX,poe.com,PROXY
 DOMAIN-SUFFIX,zditect.com,REJECT
