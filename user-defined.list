@@ -1,13 +1,22 @@
 # 无法指定某一个节点
+# 台湾节点
+DOMAIN-SUFFIX, openai.com, TW-Proxy
+DOMAIN-SUFFIX, anthropic.com, TW-Proxy  # Claude 开发者Anthropic
+DOMAIN-SUFFIX, claude.ai, TW-Proxy
+DOMAIN-SUFFIX, geolocation.com, TW-Proxy # 定位网站
+DOMAIN-SUFFIX, cloudflare.com, TW-Proxy
+DOMAIN, bard.google.com, TW-Proxy
+DOMAIN-SUFFIX, bing.com, TW-Proxy
+
 # 美国策略组
-DOMAIN-SUFFIX,openai.com,US-PROXY
-DOMAIN-SUFFIX,bard.google.com,US-PROXY
-DOMAIN-SUFFIX,tiktok.com,US-PROXY
-DOMAIN-SUFFIX,skype.com,US-PROXY
-DOMAIN-SUFFIX,claude.ai,US-PROXY
+#DOMAIN-SUFFIX,openai.com,US-PROXY
+#DOMAIN-SUFFIX,bard.google.com,US-PROXY
+#DOMAIN-SUFFIX,tiktok.com,US-PROXY
+#DOMAIN-SUFFIX,skype.com,US-PROXY
+#DOMAIN-SUFFIX,claude.ai,US-PROXY
 DOMAIN-SUFFIX,anthropic.com,US-PROXY
-# 微软
-DOMAIN-SUFFIX,bing.com,US-PROXY
+
+# 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
 DOMAIN-SUFFIX,microsoftapp.net,DIRECT
 DOMAIN-SUFFIX,live.net,DIRECT
