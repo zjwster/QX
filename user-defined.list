@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,office.com,DIRECT
 DOMAIN-SUFFIX,live.com,DIRECT
 
 # 自定义的分流规则
+DOMAIN-SUFFIX,googleadservices.com,PROXY
 DOMAIN-SUFFIX,godaddy.com,PROXY
 DOMAIN-SUFFIX,civitai.com,PROXY
 DOMAIN-SUFFIX,character.ai,PROXY
