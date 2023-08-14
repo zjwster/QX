@@ -7,6 +7,7 @@ DOMAIN-SUFFIX, geolocation.com, TW-PROXY
 DOMAIN-SUFFIX, cloudflare.com, TW-PROXY
 DOMAIN, bard.google.com, TW-PROXY
 DOMAIN-SUFFIX, bing.com, TW-PROXY
+DOMAIN-SUFFIX, tiktok.com, TW-PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
