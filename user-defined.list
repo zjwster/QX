@@ -1,13 +1,13 @@
 # 无法指定某一个节点
 # 台湾节点
-DOMAIN-SUFFIX, openai.com, US-PROXY
-DOMAIN-SUFFIX, anthropic.com, US-PROXY
-DOMAIN-SUFFIX, claude.ai, US-PROXY
-DOMAIN-SUFFIX, geolocation.com, US-PROXY
-DOMAIN-SUFFIX, cloudflare.com, US-PROXY
-DOMAIN, bard.google.com, US-PROXY
-DOMAIN-SUFFIX, bing.com, US-PROXY
-DOMAIN-SUFFIX, tiktok.com, US-PROXY
+DOMAIN-SUFFIX, openai.com, TW-PROXY
+DOMAIN-SUFFIX, anthropic.com, TW-PROXY
+DOMAIN-SUFFIX, claude.ai, TW-PROXY
+DOMAIN-SUFFIX, geolocation.com, TW-PROXY
+DOMAIN-SUFFIX, cloudflare.com, DIRECT
+DOMAIN, bard.google.com, TW-PROXY
+DOMAIN-SUFFIX, bing.com, TW-PROXY
+DOMAIN-SUFFIX, tiktok.com, TW-PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
