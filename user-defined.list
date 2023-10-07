@@ -6,8 +6,8 @@ DOMAIN-SUFFIX, claude.ai, TW-PROXY
 DOMAIN-SUFFIX, geolocation.com, TW-PROXY
 DOMAIN-SUFFIX, cloudflare.com, DIRECT
 DOMAIN, bard.google.com, US-PROXY
-DOMAIN-SUFFIX, bing.com, TW-PROXY
-DOMAIN-SUFFIX, tiktok.com, TW-PROXY
+DOMAIN-SUFFIX, bing.com, US-PROXY
+DOMAIN-SUFFIX, tiktok.com, US-PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
