@@ -1,5 +1,5 @@
 # 无法指定某一个节点
-# 不要修改
+# 不要修改，可用的
 DOMAIN, bard.google.com, US-PROXY
 DOMAIN-SUFFIX, bing.com, US-PROXY
 
