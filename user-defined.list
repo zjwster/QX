@@ -4,7 +4,7 @@ DOMAIN, bard.google.com, US-PROXY
 DOMAIN-SUFFIX, bing.com, US-PROXY
 
 # 国外节点
-DOMAIN-SUFFIX, openai.com, TW-PROXY
+DOMAIN-SUFFIX, openai.com, US-PROXY
 DOMAIN-SUFFIX, anthropic.com, TW-PROXY
 DOMAIN-SUFFIX, claude.ai, TW-PROXY
 DOMAIN-SUFFIX, geolocation.com, TW-PROXY
