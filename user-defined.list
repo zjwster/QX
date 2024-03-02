@@ -26,6 +26,7 @@ DOMAIN-SUFFIX,office.com,DIRECT
 DOMAIN-SUFFIX,live.com,DIRECT
 
 # 自定义的分流规则
+DOMAIN-SUFFIX,google.com,PROXY
 DOMAIN-SUFFIX,yahoo.com,PROXY
 DOMAIN-SUFFIX,docker.com,PROXY
 DOMAIN-SUFFIX,flightyapp.com,PROXY
