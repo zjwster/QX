@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, bing.com, US-PROXY
 DOMAIN-SUFFIX, openai.com, US-PROXY
 
 # 国外站点
+DOMAIN-SUFFIX, usefathom.com, US-PROXY # claude
 DOMAIN-SUFFIX, anthropic.com, US-PROXY # claude
 DOMAIN-SUFFIX, claude.ai, US-PROXY # claude
 DOMAIN-SUFFIX, geolocation.com, US-PROXY
