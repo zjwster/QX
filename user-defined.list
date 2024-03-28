@@ -17,6 +17,7 @@ DOMAIN-SUFFIX, tiktok.com, US-PROXY
 DOMAIN-SUFFIX, fast.com, PROXY
 DOMAIN-SUFFIX, huggingface.co, PROXY
 DOMAIN-SUFFIX, sms-activate.org, PROXY
+DOMAIN-SUFFIX, suno.ai, PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
