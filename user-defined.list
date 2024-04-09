@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, bing.com, US-PROXY
 DOMAIN-SUFFIX, openai.com, US-PROXY
 
 # 国外站点
+DOMAIN-SUFFIX, coze.com, PROXY
 DOMAIN-SUFFIX, dw.com, PROXY
 DOMAIN-SUFFIX, perplexity.ai, PROXY
 DOMAIN-SUFFIX, usefathom.com, US-PROXY
