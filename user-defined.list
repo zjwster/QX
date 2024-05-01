@@ -22,6 +22,7 @@ DOMAIN-SUFFIX, suno.ai, PROXY
 DOMAIN-SUFFIX, aibus.ai, PROXY
 DOMAIN-SUFFIX, amazonaws.com, PROXY
 DOMAIN-SUFFIX, meta.ai, PROXY
+DOMAIN-SUFFIX, openwrt.org, PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
