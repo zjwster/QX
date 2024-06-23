@@ -25,6 +25,7 @@ DOMAIN-SUFFIX, amazonaws.com, PROXY
 DOMAIN-SUFFIX, meta.ai, PROXY
 DOMAIN-SUFFIX, githubusercontent.com, PROXY
 DOMAIN-SUFFIX, googleapis.com, PROXY
+DOMAIN-SUFFIX, facebook.com, PROXY
 
 # 微软直连
 DOMAIN-SUFFIX,msn.com,DIRECT
