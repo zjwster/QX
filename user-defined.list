@@ -3,20 +3,110 @@
 DOMAIN, bard.google.com, US-PROXY
 DOMAIN, gemini.google.com, US-PROXY
 DOMAIN-SUFFIX, bing.com, US-PROXY
-DOMAIN-SUFFIX, openai.com, US-PROXY
-DOMAIN-SUFFIX, chatgpt.com, US-PROXY
+# DOMAIN-SUFFIX, openai.com, US-PROXY
+# DOMAIN-SUFFIX, chatgpt.com, US-PROXY
 DOMAIN-SUFFIX, bingapis.com, US-PROXY
-# DOMAIN-SUFFIX, browser-intake-datadoghq.com, US-PROXY
-# DOMAIN-SUFFIX, intercom.io, US-PROXY
-# DOMAIN-SUFFIX, intercomassets.com, US-PROXY
-# DOMAIN-SUFFIX, intercomcdn.com, US-PROXY
-# DOMAIN-SUFFIX, gstatic.com, US-PROXY
-# DOMAIN-SUFFIX, sentry.io, US-PROXY
-# DOMAIN-SUFFIX, usefathom.com, US-PROXY
-DOMAIN-SUFFIX, anthropic.com, US-PROXY
-DOMAIN-SUFFIX, claude.ai, US-PROXY
+# DOMAIN-SUFFIX, anthropic.com, US-PROXY
+# DOMAIN-SUFFIX, claude.ai, US-PROXY
 DOMAIN-SUFFIX, geolocation.com, US-PROXY
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
+
+# Claude
+HOST, cdn.usefathom.com, US-PROXY
+HOST-SUFFIX, anthropic.com, US-PROXY
+HOST-SUFFIX, claude.ai, US-PROXY
+
+# OpenAI
+HOST, browser-intake-datadoghq.com, US-PROXY
+HOST, chat.openai.com.cdn.cloudflare.net, US-PROXY
+HOST, gemini.google.com, US-PROXY
+HOST, openai-api.arkoselabs.com, US-PROXY
+HOST, openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net, US-PROXY
+HOST, openaicomproductionae4b.blob.core.windows.net, US-PROXY
+HOST, production-openaicom-storage.azureedge.net, US-PROXY
+HOST, static.cloudflareinsights.com, US-PROXY
+HOST-SUFFIX, ai.com, US-PROXY
+HOST-SUFFIX, algolia.net, US-PROXY
+HOST-SUFFIX, api.statsig.com, US-PROXY
+HOST-SUFFIX, auth0.com, US-PROXY
+HOST-SUFFIX, chatgpt.com, US-PROXY
+HOST-SUFFIX, chatgpt.livekit.cloud, US-PROXY
+HOST-SUFFIX, client-api.arkoselabs.com, US-PROXY
+HOST-SUFFIX, events.statsigapi.net, US-PROXY
+HOST-SUFFIX, featuregates.org, US-PROXY
+HOST-SUFFIX, host.livekit.cloud, US-PROXY
+HOST-SUFFIX, identrust.com, US-PROXY
+HOST-SUFFIX, intercom.io, US-PROXY
+DOMAIN-SUFFIX, intercomassets.com, US-PROXY
+HOST-SUFFIX, intercomcdn.com, US-PROXY
+HOST-SUFFIX, launchdarkly.com, US-PROXY
+HOST-SUFFIX, oaistatic.com, US-PROXY
+HOST-SUFFIX, oaiusercontent.com, US-PROXY
+HOST-SUFFIX, observeit.net, US-PROXY
+HOST-SUFFIX, openai.com, US-PROXY
+HOST-SUFFIX, openaiapi-site.azureedge.net, US-PROXY
+HOST-SUFFIX, openaicom.imgix.net, US-PROXY
+HOST-SUFFIX, segment.io, US-PROXY
+HOST-SUFFIX, sentry.io, US-PROXY
+HOST-SUFFIX, stripe.com, US-PROXY
+HOST-SUFFIX, turn.livekit.cloud, US-PROXY
+HOST-KEYWORD, openai, US-PROXY
+IP-CIDR, 24.199.123.28/32, US-PROXY
+IP-CIDR, 64.23.132.171/32, US-PROXY
+IP-ASN, 20473, US-PROXY
+
+# Copilot
+HOST, api.msn.com, US-PROXY
+HOST, api.statsig.com, US-PROXY
+HOST, assets.msn.com, US-PROXY
+HOST, browser-intake-datadoghq.com, US-PROXY
+HOST, chat.openai.com.cdn.cloudflare.net, US-PROXY
+HOST, copilot.microsoft.com, US-PROXY
+HOST, gateway.bingviz.microsoft.net, US-PROXY
+HOST, gateway.bingviz.microsoftapp.net, US-PROXY
+HOST, in.appcenter.ms, US-PROXY
+HOST, location.microsoft.com, US-PROXY
+HOST, odc.officeapps.live.com, US-PROXY
+HOST, openai-api.arkoselabs.com, US-PROXY
+HOST, openaicomproductionae4b.blob.core.windows.net, US-PROXY
+HOST, production-openaicom-storage.azureedge.net, US-PROXY
+HOST, r.bing.com, US-PROXY
+HOST, self.events.data.microsoft.com, US-PROXY
+HOST, services.bingapis.com, US-PROXY
+HOST, static.cloudflareinsights.com, US-PROXY
+HOST, sydney.bing.com, US-PROXY
+HOST, www.bing.com, US-PROXY
+HOST-SUFFIX, algolia.net, US-PROXY
+HOST-SUFFIX, api.microsoftapp.net, US-PROXY
+HOST-SUFFIX, auth0.com, US-PROXY
+HOST-SUFFIX, bing-shopping.microsoft-falcon.io, US-PROXY
+HOST-SUFFIX, challenges.cloudflare.com, US-PROXY
+HOST-SUFFIX, chatgpt.com, US-PROXY
+HOST-SUFFIX, chatgpt.livekit.cloud, US-PROXY
+HOST-SUFFIX, client-api.arkoselabs.com, US-PROXY
+HOST-SUFFIX, edgeservices.bing.com, US-PROXY
+HOST-SUFFIX, events.statsigapi.net, US-PROXY
+HOST-SUFFIX, featuregates.org, US-PROXY
+HOST-SUFFIX, host.livekit.cloud, US-PROXY
+HOST-SUFFIX, identrust.com, US-PROXY
+HOST-SUFFIX, intercom.io, US-PROXY
+HOST-SUFFIX, intercomcdn.com, US-PROXY
+HOST-SUFFIX, launchdarkly.com, US-PROXY
+HOST-SUFFIX, oaistatic.com, US-PROXY
+HOST-SUFFIX, oaiusercontent.com, US-PROXY
+HOST-SUFFIX, observeit.net, US-PROXY
+HOST-SUFFIX, openai.com, US-PROXY
+HOST-SUFFIX, openaiapi-site.azureedge.net, US-PROXY
+HOST-SUFFIX, openaicom.imgix.net, US-PROXY
+HOST-SUFFIX, segment.io, US-PROXY
+HOST-SUFFIX, sentry.io, US-PROXY
+HOST-SUFFIX, stripe.com, US-PROXY
+HOST-SUFFIX, turn.livekit.cloud, US-PROXY
+HOST-KEYWORD, openaicom-api, US-PROXY
+IP-CIDR, 24.199.123.28/32, US-PROXY
+IP-CIDR, 64.23.132.171/32, US-PROXY
+IP-ASN, 14061, US-PROXY
+IP-ASN, 20473, US-PROXY
 
 # 国外站点
 DOMAIN-SUFFIX, coze.com, PROXY
