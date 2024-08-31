@@ -7,6 +7,12 @@ DOMAIN-SUFFIX, openai.com, US-PROXY
 DOMAIN-SUFFIX, chatgpt.com, US-PROXY
 DOMAIN-SUFFIX, bingapis.com, US-PROXY
 DOMAIN-SUFFIX, browser-intake-datadoghq.com, US-PROXY
+DOMAIN-SUFFIX, intercom.io, US-PROXY
+DOMAIN-SUFFIX, intercomassets.com, US-PROXY
+DOMAIN-SUFFIX, intercomcdn.com, US-PROXY
+DOMAIN-SUFFIX, gstatic.com, US-PROXY
+DOMAIN-SUFFIX, sentry.io, US-PROXY
+
 
 # 国外站点
 DOMAIN-SUFFIX, coze.com, PROXY
