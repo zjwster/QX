@@ -7,7 +7,7 @@ DOMAIN-SUFFIX, geolocation.com, US-PROXY
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
 
 # Claude
-HOST, cdn.usefathom.com, US-PROXYs
+HOST, cdn.usefathom.com, US-PROXY
 HOST-SUFFIX, anthropic.com, US-PROXY
 HOST-SUFFIX, claude.ai, US-PROXY
 
