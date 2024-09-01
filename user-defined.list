@@ -1,20 +1,19 @@
 # 无法指定某一个节点
 # 美国节点，不要修改，可用的
-DOMAIN, bard.google.com, US-PROXY
-DOMAIN, gemini.google.com, US-PROXY
-DOMAIN-SUFFIX, bing.com, US-PROXY
-# DOMAIN-SUFFIX, openai.com, US-PROXY
-# DOMAIN-SUFFIX, chatgpt.com, US-PROXY
-DOMAIN-SUFFIX, bingapis.com, US-PROXY
-# DOMAIN-SUFFIX, anthropic.com, US-PROXY
-# DOMAIN-SUFFIX, claude.ai, US-PROXY
+
 DOMAIN-SUFFIX, geolocation.com, US-PROXY
+
+# Tiktok
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
 
 # Claude
-HOST, cdn.usefathom.com, US-PROXY
+HOST, cdn.usefathom.com, US-PROXYs
 HOST-SUFFIX, anthropic.com, US-PROXY
 HOST-SUFFIX, claude.ai, US-PROXY
+
+# gemini
+DOMAIN, bard.google.com, US-PROXY
+DOMAIN, gemini.google.com, US-PROXY
 
 # OpenAI
 HOST, browser-intake-datadoghq.com, US-PROXY
@@ -56,6 +55,8 @@ IP-CIDR, 64.23.132.171/32, US-PROXY
 IP-ASN, 20473, US-PROXY
 
 # Copilot
+DOMAIN-SUFFIX, bing.com, US-PROXY
+DOMAIN-SUFFIX, bingapis.com, US-PROXY
 HOST, api.msn.com, US-PROXY
 HOST, api.statsig.com, US-PROXY
 HOST, assets.msn.com, US-PROXY
