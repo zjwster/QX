@@ -1,7 +1,11 @@
+# https://github.com/blackmatrix7/ios_rule_script
 # 无法指定某一个节点
 # 美国节点，不要修改，可用的
 
 DOMAIN-SUFFIX, geolocation.com, US-PROXY
+
+# Meta
+DOMAIN-SUFFIX, meta.com, US-PROXY
 
 # Tiktok
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
