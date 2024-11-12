@@ -16,6 +16,9 @@ HOST, cdn.usefathom.com, US-PROXY
 HOST-SUFFIX, anthropic.com, US-PROXY
 HOST-SUFFIX, claude.ai, US-PROXY
 
+# Google
+HOST-SUFFIX, gstatic.com, PROXY
+
 # gemini
 DOMAIN, bard.google.com, US-PROXY
 DOMAIN, gemini.google.com, US-PROXY
