@@ -109,26 +109,26 @@ const $ = MagicJS(scriptName, "INFO");
         }
         break;
       // 京东
-      case /^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start/.test($.request.url):
-        try {
-          let obj = JSON.parse($.response.body);
-          for (let i = 0; i < obj.images.length; i++) {
-            for (let j = 0; j < obj.images[i].length; j++) {
-              if (obj.images[i][j].showTimes) {
-                obj.images[i][j].showTimes = 0;
-                obj.images[i][j].onlineTime = "2030-12-24 00:00:00";
-                obj.images[i][j].referralsTime = "2030-12-25 00:00:00";
-                obj.images[i][j].time = 0;
-              }
-            }
-          }
-          obj.countdown = 100;
-          obj.showTimesDaily = 0;
-          response = { body: JSON.stringify(obj) };
-        } catch (err) {
-          $.logger.error(`京东开屏去广告出现异常：${err}`);
-        }
-        break;
+      // case /^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start/.test($.request.url):
+      //   try {
+      //     let obj = JSON.parse($.response.body);
+      //     for (let i = 0; i < obj.images.length; i++) {
+      //       for (let j = 0; j < obj.images[i].length; j++) {
+      //         if (obj.images[i][j].showTimes) {
+      //           obj.images[i][j].showTimes = 0;
+      //           obj.images[i][j].onlineTime = "2030-12-24 00:00:00";
+      //           obj.images[i][j].referralsTime = "2030-12-25 00:00:00";
+      //           obj.images[i][j].time = 0;
+      //         }
+      //       }
+      //     }
+      //     obj.countdown = 100;
+      //     obj.showTimesDaily = 0;
+      //     response = { body: JSON.stringify(obj) };
+      //   } catch (err) {
+      //     $.logger.error(`京东开屏去广告出现异常：${err}`);
+      //   }
+      //   break;
       // 联享家
       case /^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview.fcg/.test($.request.url):
         try {
