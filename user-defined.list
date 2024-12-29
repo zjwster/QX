@@ -23,6 +23,9 @@ HOST-SUFFIX, gstatic.com, PROXY
 DOMAIN, bard.google.com, US-PROXY
 DOMAIN, gemini.google.com, US-PROXY
 
+# 币安
+DOMAIN-SUFFIX,binance.com,PROXY
+
 # OpenAI
 HOST-SUFFIX, sora.com, US-PROXY
 HOST, browser-intake-datadoghq.com, US-PROXY
