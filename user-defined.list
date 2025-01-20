@@ -24,7 +24,7 @@ DOMAIN, bard.google.com, US-PROXY
 DOMAIN, gemini.google.com, US-PROXY
 
 # 币安
-DOMAIN-SUFFIX,binance.com,PROXY
+DOMAIN-SUFFIX, binance.com,PROXY
 
 # OpenAI
 HOST-SUFFIX, sora.com, US-PROXY
