@@ -19,6 +19,9 @@ HOST-SUFFIX, claude.ai, US-PROXY
 # Google
 HOST-SUFFIX, gstatic.com, PROXY
 
+# Grok
+HOST-SUFFIX, x.ai, US-PROXY
+
 # gemini
 DOMAIN, bard.google.com, US-PROXY
 DOMAIN, gemini.google.com, US-PROXY
