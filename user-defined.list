@@ -126,6 +126,7 @@ IP-ASN, 14061, US-PROXY
 IP-ASN, 20473, US-PROXY
 
 # 国外站点
+DOMAIN-SUFFIX, instagram, PROXY
 DOMAIN-SUFFIX, threads.com, PROXY
 DOMAIN-SUFFIX, diecasting.org, PROXY
 DOMAIN-SUFFIX, qichiyu.com, PROXY
