@@ -44,9 +44,7 @@ DOMAIN-SUFFIX, ltsapis.goog, PROXY
 
 # Google私有 VIP 域名和 IP
 DOMAIN-SUFFIX, private.googleapis.com, PROXY
-IP-CIDR, 199.36.153.8/30, PROXY
 DOMAIN-SUFFIX, restricted.googleapis.com, PROXY
-IP-CIDR, 199.36.153.4/30, PROXY
 
 # Grok
 DOMAIN-SUFFIX, x.ai, US-PROXY
