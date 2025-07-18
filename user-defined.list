@@ -1,4 +1,5 @@
 # https://github.com/blackmatrix7/ios_rule_script
+# HOST > DOMAIN > DOMAIN-SUFFIX > HOST-KEYWORD > IP-CIDR > IP-ASN > GEOIP
 # 无法指定某一个节点
 # 美国节点，不要修改，可用的
 
@@ -12,7 +13,7 @@ DOMAIN-SUFFIX, meta.ai, US-PROXY
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
 
 # Claude
-HOST, cdn.usefathom.com, US-PROXY
+DOMAIN-SUFFIX, usefathom.com, US-PROXY
 DOMAIN-SUFFIX, anthropic.com, US-PROXY
 DOMAIN-SUFFIX, claude.ai, US-PROXY
 
