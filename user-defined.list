@@ -18,9 +18,38 @@ DOMAIN-SUFFIX, anthropic.com, US-PROXY
 DOMAIN-SUFFIX, claude.ai, US-PROXY
 
 # Google
-DOMAIN-SUFFIX, gstatic.com, PROXY
 DOMAIN-SUFFIX, google.com, PROXY
+
+# Google默认公共 API 域名
 DOMAIN-SUFFIX, googleapis.com, PROXY
+DOMAIN-SUFFIX, gcr.io, PROXY
+DOMAIN-SUFFIX, gstatic.com, PROXY
+DOMAIN-SUFFIX, pkg.dev, PROXY
+DOMAIN-SUFFIX, run.app, PROXY
+DOMAIN-SUFFIX, pki.goog, PROXY
+DOMAIN-SUFFIX, gke.goog, PROXY
+
+# Google API / Cloud 必要域名统一走代理
+DOMAIN-SUFFIX, cloudfunctions.net, PROXY
+DOMAIN-SUFFIX, cloudproxy.app, PROXY
+DOMAIN-SUFFIX, composer.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, datafusion.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, dataproc.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, aiplatform-notebook.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, notebooks.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, kernels.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, backupdr.googleusercontent.com, PROXY
+DOMAIN-SUFFIX, appspot.com, PROXY
+DOMAIN-SUFFIX, ltsapis.goog, PROXY
+
+# Google私有 VIP 域名和 IP
+DOMAIN-SUFFIX, private.googleapis.com, PROXY
+IP-CIDR, 199.36.153.8/30, PROXY
+IP-CIDR, 2600:2d00:0002:2000::/64, PROXY
+
+DOMAIN-SUFFIX, restricted.googleapis.com, PROXY
+IP-CIDR, 199.36.153.4/30, PROXY
+IP-CIDR, 2600:2d00:0002:1000::/64, PROXY
 
 # Grok
 DOMAIN-SUFFIX, x.ai, US-PROXY
