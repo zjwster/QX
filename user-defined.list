@@ -247,6 +247,7 @@ DOMAIN,gateway.icloud.com,DIRECT
 DOMAIN,apps.apple.com,DIRECT
 DOMAIN,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,pingan.com,DIRECT
+DOMAIN-SUFFIX,zte.com.cn,DIRECT
 DOMAIN-SUFFIX,v2rayssr.com,PROXY
 
 # > YouTube
