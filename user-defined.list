@@ -20,6 +20,12 @@ DOMAIN-SUFFIX, claude.ai, US-PROXY
 # Google
 DOMAIN-SUFFIX, google.com, PROXY
 
+# Apple
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+HOST,appleid.cdn-apple.com,DIRECT
+
 # Google默认公共 API 域名
 DOMAIN-SUFFIX, googleapis.com, PROXY
 DOMAIN-SUFFIX, gcr.io, PROXY
