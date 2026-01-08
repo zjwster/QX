@@ -12,6 +12,10 @@ DOMAIN-SUFFIX, meta.ai, US-PROXY
 # Tiktok
 DOMAIN-SUFFIX, tiktok.com, US-PROXY
 
+# Apple
+DOMAIN-SUFFIX,apple.com,DIRECT
+HOST,appleid.cdn-apple.com,DIRECT
+
 # Claude
 DOMAIN-SUFFIX, usefathom.com, US-PROXY
 DOMAIN-SUFFIX, anthropic.com, US-PROXY
@@ -244,8 +248,6 @@ DOMAIN-SUFFIX,aliyun.com,DIRECT
 DOMAIN-SUFFIX,amazon.com,DIRECT
 DOMAIN-SUFFIX,godaddy.com,DIRECT
 DOMAIN,gateway.icloud.com,DIRECT
-DOMAIN,apps.apple.com,DIRECT
-DOMAIN,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,pingan.com,DIRECT
 DOMAIN-SUFFIX,zte.com.cn,DIRECT
 DOMAIN-SUFFIX,v2rayssr.com,PROXY
